@@ -498,3 +498,72 @@ footer ul li a{
     }
   
 }
+@media(max-width:344px){
+    header #menu-icon{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        margin-top: 1rem;
+        width: 100%;
+        padding: 1rem;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 3rem;
+        display: none;
+    }
+    .text h1{
+        font-size:2.50rem;
+    }
+   
+    .section-title {
+        font-size: 2.50rem;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #000000;
+      }
+      .projects-card{
+        margin-right: 10%;
+      }
+      
+    .nav-links li{
+        margin-top: 1.5rem;
+        padding: 1rem;
+    }
+    .btn{
+      font-size: x-small;
+    }
+    .projects-card p{
+        font-size: small;
+    }
+    .projects-card img{
+        width: 50vw;
+        border-radius: 1rem;
+    }
+
+    
+    .nav-links.active{
+        display: block;
+    }
+  
+    header .logo{
+        font-size: 1.5rem;
+    }
+    .about-container img{
+        width: 80vw;
+    }
+    .input-box input{
+        padding: 0.5rem 3rem;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+    footer ul{
+        gap:1rem;
+    }
+  
+}
+
