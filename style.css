@@ -27,7 +27,7 @@ header{
 .logo{
     color: wheat;
     font-size: 1.5rem;
-    font-weight: 600;
+    
     text-wrap: nowrap;
     transition: 0.3s ease-in-out;
 }
@@ -183,12 +183,6 @@ section{
 .socials i:hover{
     transform: scale(1.3);
 }
-.section-title{
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
-}
 .experience{
     padding: 80px 80px;
     background-color: #e5e5e5;
@@ -247,7 +241,7 @@ section{
     color: transparent;
 }
 ::-webkit-scrollbar{
-    width: 20px;
+    width: 10px;
 }
 ::-webkit-scrollbar-track{
     background-color: rgb(72, 69, 68);
@@ -313,6 +307,7 @@ section{
   
   .section-title {
     font-size: 4rem;
+    text-align: center;
     margin-bottom: 20px;
     color: #000000;
   }
@@ -482,6 +477,7 @@ footer ul li a{
     .nav-links.active{
         display: block;
     }
+  
     header .logo{
         font-size: 1.5rem;
     }
@@ -566,4 +562,5 @@ footer ul li a{
     }
   
 }
+
 
